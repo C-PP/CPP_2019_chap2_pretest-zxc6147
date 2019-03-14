@@ -24,7 +24,7 @@ void random_walk(int(*a)[COLS], int rows) /// this function assign values to 2d 
 {
 	for (int r = 0; r < rows; r++)
 		for (int c = 0; c < COLS; c++)
-			a[r][c] = rand() % 1000;			//// assign any random number between 0 and 1000 using rand() function
+			*(a++) = rand() % 1000;			//// assign any random number between 0 and 1000 using rand() function
 }////////////////////////////////////////////////////문제 예) a[r][c]대신 포인터를 사용하여 같은 코드를 나타내라.////////
 
 ////////

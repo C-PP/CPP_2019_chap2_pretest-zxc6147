@@ -1,2 +1,2 @@
 ﻿  matrix.cpp
-  cplusplus_chap2_pretest.vcxproj -> C:\Users\user\Documents\GitHub\CPP_2019_chap2_pretest-zxc6147\Debug\cplusplus_chap2_pretest.exe
+c:\users\user\documents\github\cpp_2019_chap2_pretest-zxc6147\matrix.cpp(27): error C3863: 배열 형식 'int [10]'은(는) 할당할 수 없습니다.
